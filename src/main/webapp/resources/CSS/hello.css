@@ -1,0 +1,56 @@
+/* styles.css */
+
+header {
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+	color: black; /* Set heading color to white */
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 20px;
+}
+
+.about-content {
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Semi-transparent background to improve readability */
+	border-radius: 12px;
+}
+
+.about-content h2 {
+	color: #fff; /* Set heading color to white */
+}
+
+.about-content p {
+	color: #ccc; /* Set paragraph color to light gray */
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.social-media {
+	list-style-type: none;
+	padding: 0;
+}
+
+.social-media li {
+	display: inline;
+	margin-right: 10px;
+}
+
+.social-media a {
+	color: #fff; /* Set link color to white */
+	text-decoration: none;
+}
